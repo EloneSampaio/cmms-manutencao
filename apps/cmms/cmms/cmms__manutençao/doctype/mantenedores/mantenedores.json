@@ -1,25 +1,18 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:nome",
+ "autoname": "field:nome_mantenedor",
  "creation": "2021-11-06 18:35:26.947566",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "nome",
+  "nome_mantenedor",
   "cargo",
   "custo_hora"
  ],
  "fields": [
-  {
-   "fieldname": "nome",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "nome",
-   "reqd": 1,
-   "unique": 1
-  },
   {
    "fieldname": "cargo",
    "fieldtype": "Data",
@@ -29,11 +22,18 @@
    "fieldname": "custo_hora",
    "fieldtype": "Int",
    "label": "Custo hora"
+  },
+  {
+   "fieldname": "nome_mantenedor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "nome",
+   "reqd": 1,
+   "unique": 1
   }
  ],
- "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-06 18:35:37.517109",
+ "modified": "2021-11-11 15:45:06.340927",
  "modified_by": "Administrator",
  "module": "CMMS- Manuten\u00e7ao",
  "name": "Mantenedores",
@@ -48,6 +48,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CMMS-GESTOR",
    "share": 1,
    "write": 1
   }
