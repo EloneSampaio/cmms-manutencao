@@ -115,6 +115,7 @@
 2021-11-11 17:49:15,990 INFO /home/frappe/.local/bin/bench worker --queue short
 2021-11-11 17:49:15,991 INFO /home/frappe/.local/bin/bench serve --port 8000
 2021-11-11 17:49:16,001 INFO /home/frappe/.local/bin/bench schedule
+<<<<<<< HEAD
 2021-11-11 18:43:31,701 INFO /home/frappe/.local/bin/bench start
 2021-11-11 18:43:32,523 INFO /home/frappe/.local/bin/bench watch
 2021-11-11 18:43:32,532 INFO /home/frappe/.local/bin/bench schedule
@@ -122,3 +123,12 @@
 2021-11-11 18:43:32,544 INFO /home/frappe/.local/bin/bench worker --queue short
 2021-11-11 18:43:32,559 INFO /home/frappe/.local/bin/bench worker --queue default
 2021-11-11 18:43:32,563 INFO /home/frappe/.local/bin/bench worker --queue long
+=======
+2021-11-11 17:56:26,670 INFO /home/frappe/.local/bin/bench start
+2021-11-11 17:56:27,475 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 17:56:27,502 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 17:56:27,506 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 17:56:27,508 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 17:56:27,510 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 17:56:27,511 INFO /home/frappe/.local/bin/bench schedule
+>>>>>>> equipamentos
