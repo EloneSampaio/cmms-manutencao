@@ -13,7 +13,7 @@ frappe.ui.form.on('OrdemDeServico', {
 				}else if(item.item_nota==row.item_nota){
 					row.item_nota = '';
 					row.item_preco = '';
-					frappe.throw( `${item.item_nota} "Item duplicado na linha" ${item.idx}`);
+					frappe.throw( `${item.item_nota} "Item esta sendo duplicado na linha" ${item.idx}`);
 					frappe.refresh_field('items');
 				}
 
