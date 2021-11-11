@@ -9,8 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "nome",
-  "agente",
-  "cnpj"
+  "cnpj",
+  "agente"
  ],
  "fields": [
   {
@@ -30,12 +30,13 @@
   {
    "fieldname": "cnpj",
    "fieldtype": "Data",
-   "label": "CNPJ"
+   "label": "CNPJ",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-06 18:45:15.825864",
+ "modified": "2021-11-11 15:39:44.645309",
  "modified_by": "Administrator",
  "module": "CMMS- Manuten\u00e7ao",
  "name": "Fornecedor",
