@@ -237,3 +237,162 @@ ModuleNotFoundError: No module named 'manutencao_app'
   DeprecationWarning
 =======
 >>>>>>> equipamentos
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+click.Group(commands=commands)(prog_name='bench')
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    return self.main(*args, **kwargs)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+        rv = self.invoke(ctx)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+rv = self.invoke(ctx)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))    return ctx.invoke(self.callback, **ctx.params)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return callback(*args, **kwargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 143, in start_worker
+    with frappe.init_site():
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 293, in __enter__
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    init(self.site)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 212, in init
+    return callback(*args, **kwargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    setup_module_map()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1140, in setup_module_map
+    start_worker(queue, quiet = quiet)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 143, in start_worker
+    with frappe.init_site():
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 293, in __enter__
+    init(self.site)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 212, in init
+    for module in get_module_list(app):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1008, in get_module_list
+    setup_module_map()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1140, in setup_module_map
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 966, in get_module
+    for module in get_module_list(app):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1008, in get_module_list
+    return importlib.import_module(modulename)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 966, in get_module
+    return importlib.import_module(modulename)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'cmms'
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'cmms'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 143, in start_worker
+    with frappe.init_site():
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 293, in __enter__
+    init(self.site)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 212, in init
+    setup_module_map()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1140, in setup_module_map
+    for module in get_module_list(app):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1008, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 966, in get_module
+    return importlib.import_module(modulename)
+  File "/workspace/development/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'cmms'
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
