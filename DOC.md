@@ -13,3 +13,14 @@
 
 
 
+# ERROS
+
+Se não estiver mostrando comandos de estrutura, como migração de bancada ou construção de bancada.
+Experimente isto:
+
+cd ~ / frappe-bench
+rm -rf env
+configuração do banco env
+./env/bin/pip install -U setuptools
+./env/bin/pip install -e apps / frappe
+bench setup requirements

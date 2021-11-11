@@ -1,0 +1,95 @@
+2021-11-11 01:42:59,128 INFO /home/frappe/.local/bin/bench start
+2021-11-11 01:42:59,751 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 01:42:59,758 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 01:42:59,767 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 01:42:59,769 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 01:42:59,778 WARNING /home/frappe/.local/bin/bench watch executed with exit code 2
+2021-11-11 01:42:59,781 WARNING /home/frappe/.local/bin/bench serve --port 8000 executed with exit code 2
+2021-11-11 01:42:59,790 WARNING /home/frappe/.local/bin/bench worker --queue long executed with exit code 2
+2021-11-11 01:42:59,797 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 01:42:59,798 WARNING /home/frappe/.local/bin/bench worker --queue default executed with exit code 2
+2021-11-11 01:42:59,811 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 01:42:59,814 WARNING /home/frappe/.local/bin/bench worker --queue short executed with exit code 2
+2021-11-11 01:42:59,859 WARNING /home/frappe/.local/bin/bench schedule executed with exit code 2
+2021-11-11 01:46:39,363 INFO /home/frappe/.local/bin/bench update --requirement
+2021-11-11 01:46:39,400 WARNING /home/frappe/.local/bin/bench update --requirement executed with exit code 2
+2021-11-11 01:46:47,469 INFO /home/frappe/.local/bin/bench update
+2021-11-11 01:48:26,368 INFO /home/frappe/.local/bin/bench update --requirement
+2021-11-11 01:48:26,381 WARNING /home/frappe/.local/bin/bench update --requirement executed with exit code 2
+2021-11-11 01:48:29,720 INFO /home/frappe/.local/bin/bench update
+2021-11-11 01:48:47,212 INFO /home/frappe/.local/bin/bench start
+2021-11-11 01:48:47,810 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 01:48:47,820 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 01:48:47,820 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 01:48:47,827 WARNING /home/frappe/.local/bin/bench schedule executed with exit code 2
+2021-11-11 01:48:47,830 WARNING /home/frappe/.local/bin/bench worker --queue long executed with exit code 2
+2021-11-11 01:48:47,832 WARNING /home/frappe/.local/bin/bench serve --port 8000 executed with exit code 2
+2021-11-11 01:48:47,834 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 01:48:47,839 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 01:48:47,845 WARNING /home/frappe/.local/bin/bench worker --queue default executed with exit code 2
+2021-11-11 01:48:47,849 WARNING /home/frappe/.local/bin/bench watch executed with exit code 2
+2021-11-11 01:48:47,855 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 01:48:47,880 WARNING /home/frappe/.local/bin/bench worker --queue short executed with exit code 2
+2021-11-11 01:50:46,473 INFO /home/frappe/.local/bin/bench migrate
+2021-11-11 01:50:46,479 WARNING /home/frappe/.local/bin/bench migrate executed with exit code 2
+2021-11-11 01:59:06,484 INFO /home/frappe/.local/bin/bench setup env
+2021-11-11 01:59:06,527 DEBUG /usr/bin/virtualenv -q env -p python3
+2021-11-11 01:59:16,056 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe
+2021-11-11 02:02:33,563 INFO /home/frappe/.local/bin/bench start
+2021-11-11 02:02:35,453 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 02:02:35,453 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 02:02:35,455 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 02:02:35,475 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 02:02:35,481 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 02:02:35,492 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 02:11:54,426 INFO /home/frappe/.local/bin/bench update
+2021-11-11 02:12:23,782 INFO /home/frappe/.local/bin/bench setup manager
+2021-11-11 02:12:24,022 DEBUG bench new-site --force bench-manager.local
+2021-11-11 02:12:24,276 INFO /home/frappe/.local/bin/bench new-site --force bench-manager.local
+2021-11-11 02:12:25,048 WARNING bench new-site --force bench-manager.local executed with exit code 1
+2021-11-11 02:12:25,049 DEBUG bench get-app bench_manager
+2021-11-11 02:12:25,338 INFO /home/frappe/.local/bin/bench get-app bench_manager
+2021-11-11 02:12:27,122 LOG Getting app bench_manager
+2021-11-11 02:12:27,123 DEBUG cd ./apps && git clone https://github.com/frappe/bench_manager  --depth 1 --origin upstream
+2021-11-11 02:12:30,600 LOG installing bench_manager
+2021-11-11 02:12:30,600 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/bench_manager 
+2021-11-11 02:12:33,894 WARNING dev-requirements.txt not found in bench_manager
+2021-11-11 02:12:33,895 DEBUG bench build --app bench_manager
+2021-11-11 02:12:34,158 INFO /home/frappe/.local/bin/bench build --app bench_manager
+2021-11-11 02:12:34,405 WARNING bench build --app bench_manager executed with exit code 1
+2021-11-11 02:12:34,459 DEBUG bench --site bench-manager.local install-app bench_manager
+2021-11-11 02:12:34,755 INFO /home/frappe/.local/bin/bench --site bench-manager.local install-app bench_manager
+2021-11-11 02:12:35,052 WARNING bench --site bench-manager.local install-app bench_manager executed with exit code 1
+2021-11-11 02:14:19,893 INFO /home/frappe/.local/bin/bench --site manutencao.localhost uninstall-app manutencao_app
+2021-11-11 02:14:36,853 INFO /home/frappe/.local/bin/bench --site manutencao.localhost uninstall-app manutencao_app
+2021-11-11 02:15:23,386 INFO /home/frappe/.local/bin/bench setup requirements
+2021-11-11 02:15:23,660 DEBUG /workspace/development/frappe-bench/env/bin/python -m pip install -q -U pip
+2021-11-11 02:15:24,957 LOG installing frappe
+2021-11-11 02:15:24,957 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-11-11 02:15:28,406 DEBUG cd ./apps/frappe && yarn install
+2021-11-11 02:15:58,135 WARNING dev-requirements.txt not found in frappe
+2021-11-11 02:15:58,135 LOG installing manutencao_app
+2021-11-11 02:15:58,135 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/manutencao_app 
+2021-11-11 02:15:59,861 WARNING dev-requirements.txt not found in manutencao_app
+2021-11-11 02:15:59,862 LOG installing cmms
+2021-11-11 02:15:59,862 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/cmms 
+2021-11-11 02:16:01,840 WARNING dev-requirements.txt not found in cmms
+2021-11-11 02:16:01,840 LOG installing bench_manager
+2021-11-11 02:16:01,840 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/bench_manager 
+2021-11-11 02:16:04,902 WARNING dev-requirements.txt not found in bench_manager
+2021-11-11 02:16:34,201 INFO /home/frappe/.local/bin/bench --site manutencao.localhost uninstall-app manutencao_app
+2021-11-11 02:18:05,866 INFO /home/frappe/.local/bin/bench start
+2021-11-11 02:18:06,712 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 02:18:06,725 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 02:18:06,741 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 02:18:06,742 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 02:18:06,750 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 02:18:06,750 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 02:24:59,013 INFO /home/frappe/.local/bin/bench --site manutencao.localhost uninstall-app manutencao_app
+2021-11-11 02:25:03,617 INFO /home/frappe/.local/bin/bench start
+2021-11-11 02:25:05,344 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 02:25:05,349 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 02:25:05,359 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 02:25:05,368 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 02:25:05,379 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 02:25:05,413 INFO /home/frappe/.local/bin/bench schedule
