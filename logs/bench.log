@@ -93,3 +93,18 @@
 2021-11-11 02:25:05,368 INFO /home/frappe/.local/bin/bench watch
 2021-11-11 02:25:05,379 INFO /home/frappe/.local/bin/bench worker --queue default
 2021-11-11 02:25:05,413 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 16:19:13,004 INFO /home/frappe/.local/bin/bench start
+2021-11-11 16:19:26,323 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 16:19:26,345 INFO /home/frappe/.local/bin/bench worker --queue default
+2021-11-11 16:19:26,351 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 16:19:26,386 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 16:19:26,395 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 16:19:26,423 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 17:20:26,960 INFO /home/frappe/.local/bin/bench install
+2021-11-11 17:20:41,920 INFO /home/frappe/.local/bin/bench start
+2021-11-11 17:20:42,944 INFO /home/frappe/.local/bin/bench serve --port 8000
+2021-11-11 17:20:42,951 INFO /home/frappe/.local/bin/bench worker --queue long
+2021-11-11 17:20:42,969 INFO /home/frappe/.local/bin/bench schedule
+2021-11-11 17:20:42,981 INFO /home/frappe/.local/bin/bench watch
+2021-11-11 17:20:42,996 INFO /home/frappe/.local/bin/bench worker --queue short
+2021-11-11 17:20:43,005 INFO /home/frappe/.local/bin/bench worker --queue default

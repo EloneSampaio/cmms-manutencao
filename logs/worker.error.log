@@ -181,3 +181,27 @@ ModuleNotFoundError: No module named 'manutencao_app'
   DeprecationWarning
 /workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
   DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
+/workspace/development/frappe-bench/env/lib/python3.7/site-packages/bleach_whitelist/bleach_whitelist.py:7: DeprecationWarning: bleach-whitelist has been renamed bleach-allowlist. It will not receive further updates under the old name. See https://pypi.org/project/bleach-allowlist
+  DeprecationWarning
