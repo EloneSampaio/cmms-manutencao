@@ -1,0 +1,55 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item_nota",
+ "creation": "2021-11-07 13:18:58.028763",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_nota",
+  "item_qtd",
+  "item_preco"
+ ],
+ "fields": [
+    {
+        "fieldname": "item_nota",
+        "fieldtype": "Link",
+        "label": "Item",
+        "options": "Material",
+        "reqd": 1
+},
+  {
+   "default": "1",
+   "fieldname": "item_qtd",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantidade",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "item_nota.material_custo",
+   "fetch_if_empty": 1,
+   "fieldname": "item_preco",
+   "fieldtype": "Currency",
+   "label": "Pre\u00e7o",
+   "mandatory_depends_on": "item_nota",
+   "non_negative": 1,
+   "read_only": 1,
+   "reqd": 1
+  }
+ 
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-08 14:37:05.938810",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "ItensDanota",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

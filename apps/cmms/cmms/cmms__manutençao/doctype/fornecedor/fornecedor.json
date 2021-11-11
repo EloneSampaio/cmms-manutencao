@@ -1,0 +1,59 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nome",
+ "creation": "2021-11-04 23:43:21.223989",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nome",
+  "agente",
+  "cnpj"
+ ],
+ "fields": [
+  {
+   "fieldname": "nome",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Raz\u00e3o Social",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "agente",
+   "fieldtype": "Table",
+   "label": "Agente",
+   "options": "Agente"
+  },
+  {
+   "fieldname": "cnpj",
+   "fieldtype": "Data",
+   "label": "CNPJ"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-06 18:45:15.825864",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "Fornecedor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

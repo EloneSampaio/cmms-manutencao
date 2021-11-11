@@ -1,0 +1,135 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Saida-{#####}",
+ "creation": "2021-11-09 00:13:48.921441",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_9",
+  "ordem_number",
+  "number_requisicao",
+  "data_registro",
+  "column_break_6",
+  "historico",
+  "solicitante",
+  "centro_custo",
+  "section_break_13",
+  "itens_da_nota_section",
+  "items",
+  "total_nota",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Heading",
+   "label": "Informa\u00e7\u00f5es Gerais "
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_nota",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total",
+   "options": "Kz"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "itens_da_nota_section",
+   "fieldtype": "Section Break",
+   "label": "Itens da nota"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Itens",
+   "options": "ItensDanota"
+  },
+  {
+   "fieldname": "ordem_number",
+   "fieldtype": "Link",
+   "label": "\u2116 Ordem",
+   "options": "OrdemDeServico"
+  },
+  {
+   "fieldname": "number_requisicao",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Requisi\u00e7\u00e3o"
+  },
+  {
+   "fieldname": "data_registro",
+   "fieldtype": "Date",
+   "label": "Data"
+  },
+  {
+   "fieldname": "historico",
+   "fieldtype": "Data",
+   "label": "Finalidade/Hist\u00f3rico"
+  },
+  {
+   "fieldname": "solicitante",
+   "fieldtype": "Data",
+   "label": "Solicitante"
+  },
+  {
+   "fieldname": "centro_custo",
+   "fieldtype": "Link",
+   "label": "Centro Custo",
+   "options": "CentroDeCusto"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SaidaDeMaterial",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-11-09 01:08:55.298605",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "SaidaDeMaterial",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CMMS-GESTOR",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

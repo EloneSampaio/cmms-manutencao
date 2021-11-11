@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-02 15:20:41.390225",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "periodo_emprestimo_maximo",
+  "max_number_article_issued"
+ ],
+ "fields": [
+  {
+   "fieldname": "max_number_article_issued",
+   "fieldtype": "Int",
+   "label": "N\u00famero m\u00e1ximo de artigos emitidos"
+  },
+  {
+   "fieldname": "periodo_emprestimo_maximo",
+   "fieldtype": "Int",
+   "label": "Per\u00edodo de empr\u00e9stimo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-11-02 15:27:25.059804",
+ "modified_by": "Administrator",
+ "module": "SysManutencao",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

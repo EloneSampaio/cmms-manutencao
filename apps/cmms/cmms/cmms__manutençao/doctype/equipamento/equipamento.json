@@ -1,0 +1,200 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nome",
+ "creation": "2021-11-04 23:25:11.323204",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "identificacao",
+  "nome",
+  "modelo",
+  "serial_number",
+  "fabricante",
+  "localizacao",
+  "complemento",
+  "column_break_4",
+  "foto_equipamento",
+  "custo",
+  "data_instalacao",
+  "data_chegada",
+  "garantia",
+  "section_break_10",
+  "departamento",
+  "localiza\u00e7\u00e3o_do_equipamento",
+  "agente__fornecedor",
+  "informa\u00e7\u00f5es_sobre_manuten\u00e7\u00e3o_column",
+  "plano_de_manuten\u00e7\u00e3o",
+  "nota_tecnica",
+  "familia",
+  "tipo",
+  "centro_custo",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "nome",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Descri\u00e7\u00e3o/Nome",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "modelo",
+   "fieldtype": "Data",
+   "label": "Modelo"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "N\u00famero de s\u00e9rie"
+  },
+  {
+   "fieldname": "fabricante",
+   "fieldtype": "Data",
+   "label": "Fabricante"
+  },
+  {
+   "fieldname": "foto_equipamento",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Foto"
+  },
+  {
+   "fieldname": "custo",
+   "fieldtype": "Currency",
+   "label": "Custo|Pre\u00e7o"
+  },
+  {
+   "fieldname": "data_instalacao",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Data de instala\u00e7\u00e3o",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_chegada",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Data de chegada",
+   "reqd": 1
+  },
+  {
+   "fieldname": "garantia",
+   "fieldtype": "Date",
+   "label": "Garantia"
+  },
+  {
+   "fieldname": "localiza\u00e7\u00e3o_do_equipamento",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Localiza\u00e7\u00e3o do equipamento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agente__fornecedor",
+   "fieldtype": "Link",
+   "label": "Agente / Fornecedor",
+   "options": "Fornecedor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plano_de_manuten\u00e7\u00e3o",
+   "fieldtype": "Select",
+   "label": "Plano de Manuten\u00e7\u00e3o",
+   "options": "Diario\nSemanal\nQuinzenal\nMensal\nBimestral\nTrimestral\nSemestral\nAnual",
+   "reqd": 1
+  },
+  {
+   "fieldname": "departamento",
+   "fieldtype": "Link",
+   "label": "Departamento",
+   "options": "Departamento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break",
+   "label": "Informa\u00e7\u00f5es extras"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "informa\u00e7\u00f5es_sobre_manuten\u00e7\u00e3o_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nota_tecnica",
+   "fieldtype": "Text",
+   "label": "Nota Extra"
+  },
+  {
+   "fieldname": "identificacao",
+   "fieldtype": "Data",
+   "label": "Identifica\u00e7\u00e3o",
+   "reqd": 1
+  },
+  {
+   "fieldname": "localizacao",
+   "fieldtype": "Data",
+   "label": "Localiza\u00e7\u00e3o",
+   "reqd": 1
+  },
+  {
+   "fieldname": "complemento",
+   "fieldtype": "Data",
+   "label": "Complemento"
+  },
+  {
+   "fieldname": "familia",
+   "fieldtype": "Data",
+   "label": "Familia"
+  },
+  {
+   "fieldname": "tipo",
+   "fieldtype": "Link",
+   "label": "Tipo",
+   "options": "TiposdeEquipamento"
+  },
+  {
+   "fieldname": "centro_custo",
+   "fieldtype": "Data",
+   "label": "Centro custo"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "image_field": "foto_equipamento",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-08 13:45:32.669707",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "Equipamento",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

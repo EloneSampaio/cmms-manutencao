@@ -1,0 +1,131 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{nome} {sobrenome}",
+ "creation": "2021-11-04 22:39:02.330972",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nome",
+  "sobrenome",
+  "data_nascimento",
+  "full_name",
+  "foto",
+  "data_10",
+  "telefone",
+  "email",
+  "endere\u00e7o",
+  "column_break_10",
+  "hor\u00e1rio_de_trabalho",
+  "departamento"
+ ],
+ "fields": [
+  {
+   "fieldname": "nome",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nome",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sobrenome",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sobre Nome",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Nome Completo",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "foto",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Foto"
+  },
+  {
+   "fieldname": "telefone",
+   "fieldtype": "Data",
+   "label": "Telefone"
+  },
+  {
+   "fieldname": "data_nascimento",
+   "fieldtype": "Date",
+   "label": "Data de Nascimento"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "endere\u00e7o",
+   "fieldtype": "Data",
+   "label": "Endere\u00e7o"
+  },
+  {
+   "fieldname": "hor\u00e1rio_de_trabalho",
+   "fieldtype": "Int",
+   "label": "Hor\u00e1rio de trabalho"
+  },
+  {
+   "fieldname": "data_10",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "departamento",
+   "fieldtype": "Link",
+   "label": "Departamento",
+   "options": "Departamento"
+  }
+ ],
+ "image_field": "foto",
+ "links": [],
+ "max_attachments": 1,
+ "modified": "2021-11-04 23:12:11.347764",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "Tecnico",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "gerente",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

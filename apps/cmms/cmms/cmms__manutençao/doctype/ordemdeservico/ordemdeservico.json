@@ -1,0 +1,200 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:OS-{#####}",
+ "creation": "2021-11-05 00:22:50.930757",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipamento",
+  "tipo_manutencao",
+  "status",
+  "column_break_5",
+  "solicitante",
+  "date_inicio",
+  "date_termino",
+  "prioridade",
+  "descri\u00e7\u00e3o_da_solicita\u00e7\u00e3o_section",
+  "descricao_ordem",
+  "observa\u00e7\u00f5es_section",
+  "observacoes_ordem",
+  "homem_hora_section",
+  "mantenedor",
+  "data_mantenedor",
+  "date_final_mantenedor",
+  "tempo_duracao",
+  "materias_utilizados_section",
+  "items",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipamento",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipamento(Identifica\u00e7\u00e3o Descri\u00e7\u00e3o)",
+   "options": "Equipamento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prioridade",
+   "fieldtype": "Select",
+   "label": "Prioridade",
+   "options": "Baixa\nM\u00e9dia\nAlta",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tipo_manutencao",
+   "fieldtype": "Link",
+   "label": "Tipo de manuten\u00e7\u00e3o",
+   "options": "TipoDeManutencao",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Link",
+   "label": "Status",
+   "options": "StatusOrdemServico",
+   "reqd": 1
+  },
+  {
+   "fieldname": "solicitante",
+   "fieldtype": "Data",
+   "label": "Solicitante",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_inicio",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Data/Hora programada",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_termino",
+   "fieldtype": "Duration",
+   "label": "Tempo off()",
+   "reqd": 1
+  },
+  {
+   "fieldname": "descricao_ordem",
+   "fieldtype": "Long Text",
+   "label": "Descri\u00e7\u00e3o da solicita\u00e7\u00e3o"
+  },
+  {
+   "fieldname": "observacoes_ordem",
+   "fieldtype": "Long Text",
+   "label": "Observa\u00e7\u00f5es"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "homem_hora_section",
+   "fieldtype": "Section Break",
+   "label": "Homem hora"
+  },
+  {
+   "fieldname": "mantenedor",
+   "fieldtype": "Link",
+   "label": "Mantenedor",
+   "options": "Tecnico",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_mantenedor",
+   "fieldtype": "Datetime",
+   "label": "Data/Hora In\u00edcio",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_final_mantenedor",
+   "fieldtype": "Datetime",
+   "label": "Data/Hora Final"
+  },
+  {
+   "fieldname": "tempo_duracao",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "hide_seconds": 1,
+   "label": "Tempo (HH:mm)"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "materias_utilizados_section",
+   "fieldtype": "Section Break",
+   "label": "Materias Utilizados"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "observa\u00e7\u00f5es_section",
+   "fieldtype": "Section Break",
+   "label": "Observa\u00e7\u00f5es"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "descri\u00e7\u00e3o_da_solicita\u00e7\u00e3o_section",
+   "fieldtype": "Section Break",
+   "label": "Descri\u00e7\u00e3o da solicita\u00e7\u00e3o"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "OrdemDeServico",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Itens",
+   "options": "ItensDanota",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-11-10 19:02:42.548541",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "OrdemDeServico",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CMMS-GESTOR",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

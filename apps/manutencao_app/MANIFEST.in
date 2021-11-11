@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include manutencao_app *.css
+recursive-include manutencao_app *.csv
+recursive-include manutencao_app *.html
+recursive-include manutencao_app *.ico
+recursive-include manutencao_app *.js
+recursive-include manutencao_app *.json
+recursive-include manutencao_app *.md
+recursive-include manutencao_app *.png
+recursive-include manutencao_app *.py
+recursive-include manutencao_app *.svg
+recursive-include manutencao_app *.txt
+recursive-exclude manutencao_app *.pyc

@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-10 19:26:54.738771",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequencia",
+  "descricao",
+  "duracao",
+  "periocidade",
+  "data_base",
+  "data_antecipacao"
+ ],
+ "fields": [
+  {
+   "fieldname": "sequencia",
+   "fieldtype": "Int",
+   "label": "Sequencia"
+  },
+  {
+   "fieldname": "descricao",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tarefa",
+   "reqd": 1
+  },
+  {
+   "fieldname": "periocidade",
+   "fieldtype": "Link",
+   "label": "Periodicidade",
+   "options": "PeriodicidadeManutencao",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duracao",
+   "fieldtype": "Duration",
+   "label": "Tempo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_base",
+   "fieldtype": "Date",
+   "label": "Data Base",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_antecipacao",
+   "fieldtype": "Data",
+   "label": "Antecipa\u00e7\u00e3o"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-10 19:42:09.767835",
+ "modified_by": "Administrator",
+ "module": "CMMS- Manuten\u00e7ao",
+ "name": "TarefasManutencao",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
