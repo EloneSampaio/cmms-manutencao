@@ -24,3 +24,23 @@ configuração do banco env
 ./env/bin/pip install -U setuptools
 ./env/bin/pip install -e apps / frappe
 bench setup requirements
+
+
+validate: function(frm) {
+		frappe.call({
+			method: "frappe.client.get_value",
+			args: {
+				doctype: "Event",
+				fieldname: "client",
+				filters: {
+					"customer": frm.doc.client,
+					"date": frm.doc.starts_on
+				}
+			},
+			callback: function(r, rt) {
+				if (r.message.client) {
+					frappe.throw(__(“Event {0} is already exists.”, [r.message.client]))
+				}
+			}
+		});
+	}
